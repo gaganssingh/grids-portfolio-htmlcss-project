@@ -5,8 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gagan Singh</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Portfolio</h1>
+    <!-- -------------------------
+            NAVIGATION
+    ------------------------- -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- NAV HEADER -->
+        <div class="nav-header">
+          <img
+            src="./images/gagansingh-logo.png"
+            alt="Logo of Gagan Singh"
+            class="nav-logo"
+          />
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- DESKTOP NAVIGATION LINKS -->
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- -------------------------
+            SIDEBAR
+    ------------------------- -->
+    <aside class="sidebar show-sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- SIDEBAR NAVIGATION LINKS -->
+        <ul class="sidebar-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- SOCIAL ICON LINKS -->
+        <ul class="social-icons">
+          <li>
+            <a
+              href="http://www.linkedin.com"
+              target="_blank"
+              class="social-icon"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="http://www.linkedin.com"
+              target="_blank"
+              class="social-icon"
+              ><i class="fab fa-behance"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="http://www.linkedin.com"
+              target="_blank"
+              class="social-icon"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </aside>
   </body>
 </html>
