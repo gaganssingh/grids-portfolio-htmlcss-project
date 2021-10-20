@@ -223,6 +223,17 @@ p {
   }
 }
 
+/* Fixed navigation bar */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--clr-white);
+  z-index: 2;
+  box-shadow: var(--light-shadow);
+}
+
 /* ----------------------------------
                   SIDEBAR
 ---------------------------------- */
@@ -296,4 +307,12 @@ p {
 
 .social-icon:hover {
   color: var(--clr-primary-5);
+}
+
+/* ----------------------------------
+                  HERO
+---------------------------------- */
+.hero {
+  background-color: red;
+  min-height: 130vh;
 }
