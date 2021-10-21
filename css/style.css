@@ -649,3 +649,27 @@ p {
 .video-text {
   max-width: 30rem;
 }
+
+/* ----------------------------------
+                  FOOTER SECTION
+---------------------------------- */
+.footer {
+  background-color: #222;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+  place-items: center;
+  padding-bottom: 2rem;
+}
+
+.footer .social-icon {
+  color: var(--clr-primary-5);
+}
+
+.footer .social-icon:hover {
+  color: var(--clr-primary-10);
+}
+
+.footer p {
+  font-size: 1.25rem;
+}
